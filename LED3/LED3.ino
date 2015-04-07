@@ -1,6 +1,6 @@
-int ledPin1 = 2;//lsb
-int ledPin2 = 4;
-int ledPin3 = 13;//l
+int ledPin1 = 4;//red
+int ledPin2 = 8;//yellow
+int ledPin3 = 12;//green
 
 void setup()
 {
@@ -26,30 +26,9 @@ void loop()
   digitalWrite(ledPin3,LOW);
   delay(1000);
   
-  digitalWrite(ledPin1,HIGH);
-  digitalWrite(ledPin2,HIGH);
-  digitalWrite(ledPin3,LOW);
-  delay(1000);
-  
   digitalWrite(ledPin1,LOW);
   digitalWrite(ledPin2,LOW);
   digitalWrite(ledPin3,HIGH);
   delay(1000);
-  
-  digitalWrite(ledPin1,HIGH);
-  digitalWrite(ledPin2,LOW);
-  digitalWrite(ledPin3,HIGH);
-  delay(1000);
-  
-  digitalWrite(ledPin1,LOW);
-  digitalWrite(ledPin2,HIGH);
-  digitalWrite(ledPin3,HIGH);
-  delay(1000);
-  
-  digitalWrite(ledPin1,HIGH);
-  digitalWrite(ledPin2,HIGH);
-  digitalWrite(ledPin3,HIGH);
-  delay(1000);
-
-  
+    
 }
