@@ -1,6 +1,6 @@
-int ledPin1 = 8;//lsb
-int ledPin2 = 12;
-int ledPin3 = 13;//l
+int ledPin1 = 2;//lsb
+int ledPin2 = 4;
+int ledPin3 = 7;//l
 
 void setup()
 {
