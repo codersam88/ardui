@@ -1,4 +1,4 @@
-int ledPin1 = 2;//lsb
+int ledPin1 = 7;//lsb
 
 void setup()
 {
