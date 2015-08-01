@@ -1,15 +1,15 @@
-int ledPin1 = 1;//red
+int ledPin1 = 13;//red
 int ledPin2 = 2;//yellow
-int ledPin3 = 3;//green
-int ledPin4 = 4;
-int ledPin5 = 5;
-int ledPin6 = 6;
+int ledPin3 = 13;//green
+int ledPin4 = 13;
+int ledPin5 = 13;
+int ledPin6 = 13;
 int ledPin7 = 7;
 int ledPin8 = 8;
-int ledPin9 = 9;
-int ledPin10 = 10;
-int ledPin11 = 11;
-int ledPin12 = 12;
+int ledPin9 = 13;
+int ledPin10 = 13;
+int ledPin11 = 2;
+int ledPin12 = 13;
 
 
 void setup()
